@@ -1,4 +1,4 @@
-arr = [1, 1, 1, 2, 2, 2, 2, 2, 3, 3]
+arr = [1, 1, 1, 2, 2, 2, 2, 2, 3,3]
 s = set(arr)
 sl = list(s)
 sl.sort()
@@ -21,5 +21,4 @@ for i in range(0, len(v)):
     if(v[i] == m2):
         loc = k[i]
         break
-
 print(loc)
